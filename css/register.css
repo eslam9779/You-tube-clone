@@ -1,0 +1,151 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+.maindiv
+{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(154, 57, 57);
+    display: flex;
+    justify-content:center;
+    background: #DDD;
+    
+}
+.box
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+    width: 600px;
+    height: 500px;
+    border: 5px solid;
+    border-color: green;
+    box-shadow: 2px 2px 2px 2px;
+    background-color: white;
+    overflow-y: hidden;
+}
+.left
+{
+    
+   
+    width: 50%;
+    height: 650px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+header
+{
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 40px;
+   
+    
+}
+input
+{
+    border: none;
+    margin-bottom: 20px;
+     padding: 5px 5px 5px 5px;
+     width: 220px;
+     height: 32px;
+     border: none;
+     border-bottom: 1px solid #AAA;
+     font-weight: 400;
+     font-size: 15px;
+     
+}
+input:focus
+{
+
+   
+   
+   outline-color: #16a085;
+
+
+}
+.subbtn
+{
+  margin-top: 28px;
+  width: 150px;
+  height: 40px;
+  background: #16a085;
+  border: none;
+  border-radius: 2px;
+  color: #FFF;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.subbtn:hover
+{
+  
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+ 
+}
+
+
+.right
+{
+    background-image: url("../photos/im.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    
+    
+
+}
+img
+{
+    width: 100%;
+}
+.fspan
+{
+    color: white;
+    font-size: 30px;
+    justify-content: center;
+
+}
+.social-signin 
+{
+   font-size: 20px;
+   
+    border: none;
+    width: 50%px;
+    height: 50px;
+    padding: 10px;
+    margin-top: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.social-signin a
+{
+    text-decoration: none;
+    color: #DDD;
+}
+.social-signin:hover
+ {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  
+}
+.facebook
+{
+    background: #32508E;
+}
+
+.twitter
+{
+    background: #55ACEE;
+}
+.google {
+    background: #DD4B39;
+  }
